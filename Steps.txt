@@ -1,0 +1,6 @@
+Run the following in your local after downloading the folder.
+1. pip install -r requirements.txt
+2. python manage.py makemigrations
+3. python manage.py migrate
+4. python manage.py createsuperuser(This will help you access the database)
+5. python manage.py runserver
